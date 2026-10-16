@@ -17,4 +17,5 @@ output of milestone 4:
 
 
 result after running valgrind:
-<img width="464" height="482" alt="image" src="https://github.com/user-attachments/assets/0ff00760-6eac-4f68-a36b-b4258104a61d" />
+<img width="470" height="475" alt="image" src="https://github.com/user-attachments/assets/7bfe1e69-d914-47e7-9c00-bc033af76956" />
+
