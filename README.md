@@ -10,3 +10,7 @@ ouput of milestone 2:
 
 output of milestone 3:
 <img width="449" height="319" alt="image" src="https://github.com/user-attachments/assets/2cf4072e-d4ab-436b-b118-c3cf6934a9e8" />
+
+
+output of milestone 4:
+<img width="448" height="344" alt="image" src="https://github.com/user-attachments/assets/f660168b-7b28-4b39-b676-f2993b9c4042" />
