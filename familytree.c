@@ -77,9 +77,15 @@ void print_family_relationships(const Person *me) {
     }
 }
 
+void free_family_tree(Person *people[], int count) { 
+    for (int i = 0; i < count; i++) { 
+        free(people[i]); 
+        people[i] = NULL; 
+    } 
+} 
 
 int main(void) {
-  char name[7][50]; 
+ char name[7][50]; 
     int age[7]; 
     Person *people[7]; 
  
@@ -95,9 +101,7 @@ int main(void) {
         people[i] = create_person(name[i], age[i]); 
  
         if (people[i] == NULL) { 
-            for (int j = 0; j < i; j++) { 
-                free(people[j]); 
-            } 
+            free_family_tree(people, i); 
             return 1; 
         } 
     } 
@@ -108,9 +112,10 @@ int main(void) {
  
     print_family_relationships(people[6]); 
  
-    for (int i = 0; i < 7; i++) { 
-        free(people[i]); 
-    } 
+    free_family_tree(people, 7); 
+ 
+    printf("\nMemory released successfully.\n"); 
  
     return 0; 
+ 
 }
