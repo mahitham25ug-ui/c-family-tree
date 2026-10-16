@@ -14,3 +14,7 @@ output of milestone 3:
 
 output of milestone 4:
 <img width="448" height="344" alt="image" src="https://github.com/user-attachments/assets/f660168b-7b28-4b39-b676-f2993b9c4042" />
+
+
+result after running valgrind:
+<img width="464" height="482" alt="image" src="https://github.com/user-attachments/assets/0ff00760-6eac-4f68-a36b-b4258104a61d" />
